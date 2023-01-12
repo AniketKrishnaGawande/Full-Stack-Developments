@@ -2,15 +2,16 @@ const express=require("express");
 const routes=express.Router();
 const mysql = require("mysql");
 
+
 const connection=mysql.createConnection({
 host:"LocalHost",
 user:"root",
 password:"Aniket19%",
 database:"EmployeeInfo"
 });
-
-routes.get("/Employee",(req,resp)=>{
 connection.connect();
+routes.get("/Employee",(req,resp)=>{
+
 connection.query("select * from Employees",(err,data)=>{
 if(err)
 {
@@ -19,13 +20,12 @@ if(err)
 else{
     resp.send(data);
 }
-connection.end();
+
 });
 });
 
-router.get("/Employee/:empid",(req,resp)=>{
+routes.get("/Employee/:Eid",(req,resp)=>{
 
-connection.connect();
 var str = "select * from Employees where Eid="+req.params.Eid;
 connection.query(str,(err,data)=>{
     if(err)
@@ -36,7 +36,14 @@ connection.query(str,(err,data)=>{
         resp.send(data)
     }
 });
-
 });
+
+
+// router.post("/employee",(req,resp)=>{
+// connection.connect();
+// var str = 
+
+
+// });
 
 module.exports=routes;
