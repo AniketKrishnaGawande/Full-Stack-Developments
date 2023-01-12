@@ -1,27 +1,24 @@
 import { useState } from "react";
 import { useEffect } from "react";
-import AxiosConnector from "./AxiosConnector";
+import ServerConnector from "./ServerConnector";
 function EmployeeList() {
 
     var [empArr, setEmpArr] = useState([]);
 
     useEffect(() => {
-        AxiosConnector.getALLData().then((response)=>{
+        ServerConnector.getALLData().then((response)=>{
             setEmpArr(response);
+            console.log(response);
             console.log("use effect called");
         })
     }, []);
 
-    var InsertData = () => {
-        return empArr.map((emp) => {return <tr><td>{empArr.Eid}</td><td>{empArr.Ename}</td><td>{empArr.Dept}</td>
-                        <td>{empArr.salary}</td>
-                    </tr>
-            });
+    const InsertData = () => {
+    
+        return empArr.map((emp) =>(<tr><td>{emp.Eid}</td><td>{emp.Ename}</td><td>{emp.Dept}</td><td>{emp.Salary}</td></tr>));
     }
 
-    return (
-
-        <div>
+    return ( <div>
             <table>
                 <tr>
                     <th>Employee id</th>
@@ -29,7 +26,7 @@ function EmployeeList() {
                     <th>Employee department</th>
                     <th>Salary</th>
                 </tr>
-                {InsertData}
+                {InsertData()}
             </table>
 
         </div>
