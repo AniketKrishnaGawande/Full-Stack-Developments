@@ -9,5 +9,9 @@ constructor(){
 getALLData(){
 return axios.get(this.basicURL+"employee");
 }
+
+getSpecificData(id){
+    return axios.get(this.basicURL+"employee/"+id);
+    }
 }
 export default new ServerConnector();

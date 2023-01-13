@@ -7,15 +7,13 @@ function EmployeeList() {
 
     useEffect(() => {
         ServerConnector.getALLData().then((response)=>{
-            setEmpArr(response);
-            console.log(response);
-            console.log("use effect called");
+            setEmpArr(response.data);
         })
     }, []);
 
     const InsertData = () => {
-    
-        return empArr.map((emp) =>(<tr><td>{emp.Eid}</td><td>{emp.Ename}</td><td>{emp.Dept}</td><td>{emp.Salary}</td></tr>));
+        
+        return empArr.map((emp) =>{return<tr><td>{emp.Eid}</td><td>{emp.Ename}</td><td>{emp.Dept}</td><td>{emp.Salary}</td></tr> });
     }
 
     return ( <div>
