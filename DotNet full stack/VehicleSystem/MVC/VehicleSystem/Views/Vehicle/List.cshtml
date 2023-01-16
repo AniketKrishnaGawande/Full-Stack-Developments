@@ -1,0 +1,40 @@
+@using BOL;
+@{
+    ViewData["Title"] = "List Page";
+}
+
+<h1 class="display-4">Vehicle Management System</h1>
+<a asp-area="" asp-controller="Home" asp-action="Index"><button>Home
+</button> </a>
+<a asp-area="" asp-controller="Vehicle" asp-action="AddVehicle"><button>Add Vehicle
+</button> </a>
+</div>
+</div>
+<form method="post" action="search">
+    <input type="number" name="vid" id="vid">
+    <button type="submit">search data</button>
+</form>
+<table class="table table-striped" border="2px">
+    <tr border="2px">
+        <th>VId</th>
+        <th>VName</th>
+        <th>VCompany</th>
+        <th>VPrice</th>
+
+    </tr>
+    @{
+        List<Vehicle> list = (List<Vehicle>)ViewData["vehicleData"];
+        @foreach (Vehicle vehi in list)
+        {
+            <tr>
+                <td>@vehi.Vid</td>
+                <td>@vehi.VName</td>
+                <td>@vehi.Vcmp</td>
+                <td>@vehi.VPrice</td>
+                <td> <a href="/Vehicle/delete/@vehi.Vid"><button>Delete</button></a></td>
+                <td> <a href="/Vehicle/update/@vehi.Vid"><button>update</button></a></td>
+            </tr>
+        }
+    }
+</table>
+</div>

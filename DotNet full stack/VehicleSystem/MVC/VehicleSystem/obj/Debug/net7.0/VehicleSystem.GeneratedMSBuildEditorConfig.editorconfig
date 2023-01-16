@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = VehicleSystem
+build_property.RootNamespace = VehicleSystem
+build_property.ProjectDir = C:\data\Aniket CDAC data\IACSD DATA\Module files\Dot Net\own notes\program to ref\DotNet-Practice\FullStack\DotNetFullStack\VehicleSystem\MVC\VehicleSystem\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\data\Aniket CDAC data\IACSD DATA\Module files\Dot Net\own notes\program to ref\DotNet-Practice\FullStack\DotNetFullStack\VehicleSystem\MVC\VehicleSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/data/Aniket CDAC data/IACSD DATA/Module files/Dot Net/own notes/program to ref/DotNet-Practice/FullStack/DotNetFullStack/VehicleSystem/MVC/VehicleSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/data/Aniket CDAC data/IACSD DATA/Module files/Dot Net/own notes/program to ref/DotNet-Practice/FullStack/DotNetFullStack/VehicleSystem/MVC/VehicleSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/data/Aniket CDAC data/IACSD DATA/Module files/Dot Net/own notes/program to ref/DotNet-Practice/FullStack/DotNetFullStack/VehicleSystem/MVC/VehicleSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/data/Aniket CDAC data/IACSD DATA/Module files/Dot Net/own notes/program to ref/DotNet-Practice/FullStack/DotNetFullStack/VehicleSystem/MVC/VehicleSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/data/Aniket CDAC data/IACSD DATA/Module files/Dot Net/own notes/program to ref/DotNet-Practice/FullStack/DotNetFullStack/VehicleSystem/MVC/VehicleSystem/Views/Vehicle/AddVehicle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxBZGRWZWhpY2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/data/Aniket CDAC data/IACSD DATA/Module files/Dot Net/own notes/program to ref/DotNet-Practice/FullStack/DotNetFullStack/VehicleSystem/MVC/VehicleSystem/Views/Vehicle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/data/Aniket CDAC data/IACSD DATA/Module files/Dot Net/own notes/program to ref/DotNet-Practice/FullStack/DotNetFullStack/VehicleSystem/MVC/VehicleSystem/Views/Vehicle/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/data/Aniket CDAC data/IACSD DATA/Module files/Dot Net/own notes/program to ref/DotNet-Practice/FullStack/DotNetFullStack/VehicleSystem/MVC/VehicleSystem/Views/Vehicle/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/data/Aniket CDAC data/IACSD DATA/Module files/Dot Net/own notes/program to ref/DotNet-Practice/FullStack/DotNetFullStack/VehicleSystem/MVC/VehicleSystem/Views/Vehicle/update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVx1cGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/data/Aniket CDAC data/IACSD DATA/Module files/Dot Net/own notes/program to ref/DotNet-Practice/FullStack/DotNetFullStack/VehicleSystem/MVC/VehicleSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/data/Aniket CDAC data/IACSD DATA/Module files/Dot Net/own notes/program to ref/DotNet-Practice/FullStack/DotNetFullStack/VehicleSystem/MVC/VehicleSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/data/Aniket CDAC data/IACSD DATA/Module files/Dot Net/own notes/program to ref/DotNet-Practice/FullStack/DotNetFullStack/VehicleSystem/MVC/VehicleSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-p03ww5l6jc

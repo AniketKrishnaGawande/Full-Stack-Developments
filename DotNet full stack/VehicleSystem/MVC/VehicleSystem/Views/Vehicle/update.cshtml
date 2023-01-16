@@ -1,0 +1,66 @@
+@using BOL;
+{
+    
+}
+@{
+    ViewData["Title"] = "Update Page";
+}
+
+
+<h1 class="display-4">Vehicle Management System</h1>
+<a asp-area="" asp-controller="Home" asp-action="Index"><button>Home
+</button> </a>
+<a asp-area="" asp-controller="Vehicle" asp-action="List"><button>Vehicle List
+</button> </a>
+</div>
+</div>
+
+<div class="align-items-center">
+  <table>
+   @{
+    Vehicle veh=(Vehicle)ViewData["vehicle"];
+    <form method="post" action="Update">
+      <tr>
+        <th><label for="vid">Vehicle id:</label></th>
+        <td>
+          <input type="number" id="vid" name="vid" value="@veh.Vid" readonly><br>
+        </td>
+      </tr>
+
+      <tr>
+        <th>
+          <label for="vname">Vehicle name:</label><br>
+        </th>
+        <td>
+          <input type="text" id="vname" name="vname" value="@veh.VName"><br>
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="vcmp">Company name:</label><br>
+        </th>
+        <td>
+          <input type="text" id="vcmp" name="vcmp" value="@veh.Vcmp">
+        </td>
+      </tr>
+      <tr>
+        <th>
+          <label for="vprice">Vehicle price:</label><br>
+        </th>
+        <td>
+          <input type="number" id="vprice" name="vprice" value="@veh.VPrice">
+        </td>
+      </tr>
+      <tr>
+        <td>
+ <button type="submit">update data</button>
+    </td>
+    </tr>
+    </form>
+   }
+  </table>
+
+
+
+</div>
+</div>

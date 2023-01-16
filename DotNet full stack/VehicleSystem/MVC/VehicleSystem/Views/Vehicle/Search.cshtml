@@ -1,0 +1,38 @@
+@using BOL;
+@{
+    ViewData["Title"] = "search Page";
+}
+
+<h1 class="display-4">Vehicle Management System</h1>
+<a asp-area="" asp-controller="Home" asp-action="Index"><button>Home
+    </button> </a>
+<a asp-area="" asp-controller="Vehicle" asp-action="List"><button>Vehicle List
+    </button> </a>
+<a asp-area="" asp-controller="Vehicle" asp-action="Addvehicle"><button>Add Vehicle
+    </button> </a>
+</div>
+</div>
+
+<table  class="table table-striped" border="2px">
+    <tr border="2px">
+        <th>VId</th>
+        <th>VName</th>
+        <th>VCompany</th>
+        <th>VPrice</th>
+
+    </tr>
+    @{
+        Vehicle veh = (Vehicle)ViewData["vehicle"];
+
+        <tr>
+            <td>@veh.Vid</td>
+            <td>@veh.VName</td>
+            <td>@veh.Vcmp</td>
+            <td>@veh.VPrice</td>
+            <td> <a href="/Vehicle/delete/@veh.Vid"><button>Delete</button></a></td>
+            <td> <a href="/Vehicle/update/@veh.Vid"><button>update</button></a></td>
+        </tr>
+
+    }
+</table>
+</div>
