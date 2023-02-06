@@ -1,0 +1,190 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BLL\\BLL.csproj": {}
+  },
+  "projects": {
+    "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Aniket\\.nuget\\packages\\",
+        "outputPath": "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aniket\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BOL\\BOL.csproj"
+              },
+              "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BOL\\BOL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BOL\\BOL.csproj",
+        "projectName": "BOL",
+        "projectPath": "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BOL\\BOL.csproj",
+        "packagesPath": "C:\\Users\\Aniket\\.nuget\\packages\\",
+        "outputPath": "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BOL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aniket\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Aniket\\.nuget\\packages\\",
+        "outputPath": "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aniket\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\data\\Aniket CDAC data\\IACSD DATA\\Module files\\Full_Stack\\Full-Stack-Developments\\DotNet full stack\\PMS\\BOL\\BOL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "mysql.data": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
